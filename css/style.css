@@ -19,7 +19,7 @@ body {
   left: calc(50% - 35%);
   top: 0;
   width: 70%;
-  max-width: 1200px;
+  max-width: 840px;
   margin: 0 auto;
   background-color: #000000;
 /*  margin-top: -100vh;*/
@@ -27,7 +27,7 @@ body {
 
 @media(min-width: 1200px) {
   .body__container {
-    left: calc(50% - 600px);
+    left: calc(50% - 420px);
   }
 }
 
