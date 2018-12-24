@@ -25,6 +25,12 @@ body {
 /*  margin-top: -100vh;*/
 }
 
+@media(min-width: 1200px) {
+  .body__container {
+    left: calc(50% - 600px);
+  }
+}
+
 .page-header {
   position: relative;
   display: flex;
@@ -68,7 +74,6 @@ body {
 }
 
 .page-main {
-  position: relative;
   width: 70%;
   margin: 0 auto;
   min-height: 400px;
